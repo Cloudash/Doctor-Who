@@ -10,6 +10,7 @@
 <!-- TemplateParam name="The Doctors Menu" type="boolean" value="false" -->
 <!-- TemplateParam name="The Companions Menue" type="boolean" value="true" -->
 <!-- TemplateParam name="Companions Menu" type="boolean" value="false" -->
+<!-- TemplateParam name="villains" type="boolean" value="true" -->
 </head>
 
 <body>
@@ -34,24 +35,43 @@
         <li><a href="../the-doctors/the-third-doctor.html">The Third Doctor</a></li>
         <li><a href="../the-doctors/the-fourth-doctor.html">The Fourth Doctor</a></li>
         <li><a href="../the-doctors/the-fifth-doctor.html">The Fifth Doctor</a></li>
-        <li>The Sixth Doctor</li>
-        <li>The Seventh Doctor</li>
-        <li>The Eigth Doctor</li>
-        <li>The War Doctor</li>
-        <li>The Ninth Doctor</li>
-        <li>The Tenth Doctor</li>
-        <li>The Eleventh Doctor</li>
-        <li>The Twelvth Doctor</li>
+        <li><a href="../the-doctors/the-sixth-doctor.html">The Sixth Doctor</a></li>
+        <li><a href="../the-doctors/the-seventh-doctor.html">The Seventh Doctor</a></li>
+        <li><a href="../the-doctors/the-eigth-doctor.html">The Eigth Doctor</a></li>
+        <li><a href="../the-doctors/the-war-doctor.html">The War Doctor</a></li>
+        <li><a href="../the-doctors/the-ninth-doctor.html">The Ninth Doctor</a></li>
+        <li><a href="../the-doctors/the-tenth-doctor.html">The Tenth Doctor</a></li>
+        <li><a href="../the-doctors/the-eleventh-doctor.html">The Eleventh Doctor</a></li>
+        <li><a href="../the-doctors/the-twelvth-doctor.html">The Twelvth Doctor</a></li>
         <!-- TemplateEndIf -->
     </ul>
 <!-- TemplateBeginIf cond="_document['Companions Menu']" -->
+      <li><a href="../the-companions/index.html">Companions</a></li>
       <li><a href="../the-companions/susan-foreman.html">Susan Foreman</a></li>
       <li><a href="../the-companions/barbra-wright.html">Barbra Wright</a></li>
       <li><a href="../the-companions/vicki.html">Vicki</a></li>
       <li><a href="../the-companions/polly.html">Polly</a></li>
       <li><a href="../the-companions/katarina.html">Katarina</a></li>
-      <!-- TemplateEndIf --></td>
-    <td><!-- TemplateBeginEditable name="Content" -->[Content]<!-- TemplateEndEditable --></td>
+      <li><a href="../the-companions/sarah-kingdom.html">Sara Kingdom</a></li>
+      <li><a href="../the-companions/dodo-jackson.html">Dodo Chaplet</a></li>
+      <li><a href="../the-companions/ben-jackson.html">Ben Jackson</a></li>
+      <li><a href="../the-companions/ian-chesterton.html">Ian Chesterton</a></li></ul>
+	</li><!-- TemplateEndIf -->   
+    <!-- TemplateBeginIf cond="_document['villains menu']" --><li><a href="../the-villians/index.html">Villians</a></li>
+        <li><a href="../the-villians/helen-a.html">Helen A</a></li>
+        <li><a href="../the-villians/abzorbaloff.html">Abzorbaloff</a></li>
+        <li><a href="../the-villians/father-angelo.html">Father Angelo</a></li>
+        <li><a href="../the-villians/animus.html">Animus</a></li>
+        <li><a href="../the-villians/azal.html">Azal</a></li>
+        <li><a href="../the-villians/baltazar.html">Baltazar</a></li>
+        <li><a href="../the-villians/beast.html">Beast</a></li>
+        <li><a href="../the-villians/beep-the-meep.html">Beep the Meep</a></li>
+        <li><a href="../the-villians/bennett.html">Bennett</a></li>
+        <li><a href="../the-villians/black-guardian.html">Black Guardian
+      
+      </a><!-- TemplateEndIf --></td>
+      
+    <td><!-- TemplateBeginEditable name="Content" -->Content<!-- TemplateEndEditable --></td>
   </tr>
 </table>
 </body>
