@@ -1,0 +1,14 @@
+.insertimage {
+	float: left;
+	border: 10px solid #999;
+	padding: 25px;
+	background-color: #6CC;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+	margin-left: 0px;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}

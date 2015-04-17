@@ -10,6 +10,7 @@
 <!-- TemplateParam name="The Doctors Menu" type="boolean" value="false" -->
 <!-- TemplateParam name="Companions Menu" type="boolean" value="false" -->
 <!-- TemplateParam name="Villains Menu" type="boolean" value="true" -->
+<link href="../style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
