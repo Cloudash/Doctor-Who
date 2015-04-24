@@ -15,7 +15,7 @@
 <!-- TemplateParam name="Villians" type="boolean" value="true" -->
 </head>
 
-<body>
+<body bgcolor="#CCCCCC">
 <table width="950">
   <tr class="buttons">
     <td width="25" class="homebutton"><a href="../index.html">Home</a></td>
