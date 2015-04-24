@@ -10,7 +10,7 @@
 }
 .secondary {
 	vertical-align: top;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Comic Sans MS", cursive;
 	font-size: 16px;
 	line-height: 2.5em;
 	background-color: #CCC;
@@ -26,4 +26,6 @@ body {
 	color: #000;
 	padding-left: 50px;
 	background-color: #9CC;
+	vertical-align: top;
+	font-family: "Comic Sans MS", cursive;
 }

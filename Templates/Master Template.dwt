@@ -27,7 +27,7 @@
     <td colspan="4"><!-- TemplateBeginEditable name="Banner" -->[Banner]<!-- TemplateEndEditable --></td>
   </tr>
 </table>
-<table width="1000">
+<table width="950">
   <tr>
     <td class="secondary"><!-- TemplateBeginIf cond="_document['The Doctors Menu']" -->
       <li>
