@@ -29,3 +29,19 @@ body {
 	vertical-align: top;
 	font-family: "Comic Sans MS", cursive;
 }
+.homebutton {
+	background-color: #C96;
+	width: 25px;
+}
+.doctorsbutton {
+	background-color: #99C;
+	width: 25px;
+}
+.companionsbutton {
+	background-color: #CFC;
+	width: 25px;
+}
+.villiansbutton {
+	background-color: #9C9;
+	width: 25px;
+}
