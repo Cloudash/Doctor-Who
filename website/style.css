@@ -13,7 +13,7 @@
 	font-family: "Comic Sans MS", cursive;
 	font-size: 16px;
 	line-height: 2.5em;
-	background-color: #6C9;
+	background-color: #666;
 	color: #333;
 }
 
@@ -22,27 +22,40 @@ body {
 	line-height: 2.5em;
 	font-size: 16px;
 	color: #333;
+	background-image: url(banner-images/Earth_and_Moon.jpg);
 }
 .content-area {
 	color: #000;
 	padding-left: 50px;
-	background-color: #9CC;
+	background-color: #CCC;
 	vertical-align: top;
 	font-family: "Comic Sans MS", cursive;
 }
 .homebutton {
-	background-color: #C96;
+	background-color: #993;
 	width: 25px;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #999;
+	color: #FFF;
+	text-decoration: underline;
 }
 .doctorsbutton {
-	background-color: #99C;
+	background-color: #9C0;
 	width: 25px;
+	color: #FFF;
 }
 .companionsbutton {
-	background-color: #CFC;
+	background-color: #9C0;
 	width: 25px;
+	color: #000;
 }
 .villiansbutton {
 	background-color: #9C9;
 	width: 25px;
+	color: #FFF;
+}
+.people {
+	color: #FFF;
 }

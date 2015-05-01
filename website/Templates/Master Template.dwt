@@ -19,10 +19,10 @@
 <body bgcolor="#CCCCCC">
 <table width="950">
   <tr class="buttons">
-    <td width="25" class="homebutton"><a href="../index.html">Home</a></td>
-    <td width="25" class="doctorsbutton"><a href="../the-doctors/index.html">The Doctors</a></td>
-    <td width="25" class="companionsbutton"><a href="../the-companions/index.html">The Companions</a></td>
-    <td width="25" class="villiansbutton"><a href="../the-villians/index.html">The Villians</a></td>
+    <td width="25" class="homebutton"><a href="../index.html" class="homebutton"><strong>HOME</strong></a></td>
+    <td width="25" class="doctorsbutton"><strong><a href="../the-doctors/index.html" class="doctorsbutton">The Doctors</a></strong></td>
+    <td width="25" class="companionsbutton"><strong><a href="../the-companions/index.html" class="doctorsbutton">The Companions</a></strong></td>
+    <td width="25" class="doctorsbutton"><strong><a href="../the-villians/index.html" class="doctorsbutton">The Villians</a></strong></td>
   </tr>
   <tr>
     <td height="0" colspan="4"><!-- TemplateBeginEditable name="Banner" -->[Banner]<!-- TemplateEndEditable --></td>
@@ -32,57 +32,61 @@
   <tr>
     <td class="secondary"><!-- TemplateBeginIf cond="_document['The Doctors Menu']" -->
       <li>
-        <h2>The Doctors</h2>
+        <h2><span class="people">The Doctors</span></h2>
       </li>
       <ul>
-        <li><a href="../the-doctors/the-first-doctor.html">The First Doctor</a></li>
-        <li><a href="../the-doctors/the-second-doctor.html">The Second Doctor</a></li>
-        <li><a href="../the-doctors/the-third-doctor.html">The Third Doctor</a></li>
-        <li><a href="../the-doctors/the-fourth-doctor.html">The Fourth Doctor</a></li>
-        <li><a href="../the-doctors/the-fifth-doctor.html">The Fifth Doctor</a></li>
-        <li><a href="../the-doctors/the-sixth-doctor.html">The Sixth Doctor</a></li>
-        <li><a href="../the-doctors/the-seventh-doctor.html">The Seventh Doctor</a></li>
-        <li><a href="../the-doctors/the-eigth-doctor.html">The Eigth Doctor</a></li>
-        <li><a href="../the-doctors/the-war-doctor.html">The War Doctor</a></li>
-        <li><a href="../the-doctors/the-ninth-doctor.html">The Ninth Doctor</a></li>
-        <li><a href="../the-doctors/the-tenth-doctor.html">The Tenth Doctor</a></li>
-        <li><a href="../the-doctors/the-eleventh-doctor.html">The Eleventh Doctor</a></li>
-        <li><a href="../the-doctors/the-twelvth-doctor.html">The Twelvth Doctor</a></li>
+        <li><span class="people"><a href="../the-doctors/the-first-doctor.html" class="people">The First Doctor</a></span></li>
+        <li><span class="people"><a href="../the-doctors/the-second-doctor.html" class="people">The Second Doctor</a></span></li>
+        <li><span class="people"><a href="../the-doctors/the-third-doctor.html" class="people">The Third Doctor</a></span></li>
+        <li><span class="people"><a href="../the-doctors/the-fourth-doctor.html" class="people">The Fourth Doctor</a></span></li>
+        <li><span class="people"><a href="../the-doctors/the-fifth-doctor.html" class="people">The Fifth Doctor</a></span></li>
+        <li><span class="people"><a href="../the-doctors/the-sixth-doctor.html" class="people">The Sixth Doctor</a></span></li>
+        <li><span class="people"><a href="../the-doctors/the-seventh-doctor.html" class="people">The Seventh Doctor</a></span></li>
+        <li><span class="people"><a href="../the-doctors/the-eigth-doctor.html" class="people">The Eigth Doctor</a></span></li>
+        <li><span class="people"><a href="../the-doctors/the-war-doctor.html" class="people">The War Doctor</a></span></li>
+        <li><span class="people"><a href="../the-doctors/the-ninth-doctor.html" class="people">The Ninth Doctor</a></span></li>
+        <li><span class="people"><a href="../the-doctors/the-tenth-doctor.html" class="people">The Tenth Doctor</a></span></li>
+        <li><span class="people"><a href="../the-doctors/the-eleventh-doctor.html" class="people">The Eleventh Doctor</a></span></li>
+        <li><span class="people"><a href="../the-doctors/the-twelvth-doctor.html" class="people">The Twelvth Doctor</a></span></li>
       </ul>
+      <!-- TemplateEndIf --><span class="people"><!-- TemplateBeginIf cond="_document['Companions Menu']" -->
       <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Companions Menu']" -->
+      <!-- TemplateEndIf --></span><!-- TemplateBeginIf cond="_document['Companions Menu']" -->
       <ul>
         <li>
-          <h2>Companions</h2>
+          <h2><span class="people">Companions</span></h2>
         </li>
-        <li><a href="../the-companions/susan-foreman.html">Susan Foreman</a></li>
-        <li><a href="../the-companions/barbra-wright.html">Barbra Wright</a></li>
-        <li><a href="../the-companions/vicki.html">Vicki</a></li>
-        <li><a href="../the-companions/polly.html">Polly</a></li>
-        <li><a href="../the-companions/katarina.html">Katarina</a></li>
-        <li><a href="../the-companions/sarah-kingdom.html">Sarah Kingdom</a></li>
-        <li><a href="../the-companions/ben-jackson.html">Ben Jackson</a></li>
-        <li><a href="../the-companions/dodo-chaplet.html">Dodo Chaplet</a></li>
-        <li><a href="../the-companions/ian-chesterton.html">Ian Chesterton</a></li>
-        <li><a href="../the-companions/steven-taylor.html" title="Steven Taylor (Doctor Who)">Steven Taylor</a></li>
+        <li class="people"><span class="people"><a href="../the-companions/susan-foreman.html" class="people">Susan Foreman</a></span></li>
+        <li class="people"><span class="people"><a href="../the-companions/barbra-wright.html" class="people">Barbra Wright</a></span></li>
+        <li class="people"><a href="../the-companions/vicki.html" class="people">Vicki</a></li>
+        <li class="people"><span class="people"><a href="../the-companions/polly.html" class="people">Polly</a></span></li>
+        <li class="people"><span class="people"><a href="../the-companions/katarina.html" class="people">Katarina</a></span></li>
+        <li class="people"><span class="people"><a href="../the-companions/sarah-kingdom.html" class="people">Sarah Kingdom</a></span></li>
+        <li class="people"><span class="people"><a href="../the-companions/ben-jackson.html" class="people">Ben Jackson</a></span></li>
+        <li class="people"><span class="people"><a href="../the-companions/dodo-chaplet.html" class="people">Dodo Chaplet</a></span></li>
+        <li class="people"><span class="people"><a href="../the-companions/ian-chesterton.html" class="people">Ian Chesterton</a></span></li>
+        <li class="people"><span class="people"><a href="../the-companions/steven-taylor.html" title="Steven Taylor (Doctor Who)" class="people">Steven Taylor</a></span></li>
       </ul>
-      <!-- TemplateEndIf --><!-- TemplateBeginIf cond="history" -->
-      <p><a href="../history.html">History</a></p>
-      <p><a href="../index.html">What is Doctor Who</a></p>
-      <!-- TemplateEndIf --><!-- TemplateBeginIf cond="Villians" -->
+      <!-- TemplateEndIf --><span class="people"><!-- TemplateBeginIf cond="history" -->
+      <!-- TemplateEndIf --></span><!-- TemplateBeginIf cond="history" class="people" -->
+      <p><span class="people"><a href="../history.html" class="people">History</a></span></p>
+      <p><a href="../index.html" class="people">What is Doctor Who</a></p>
+      <!-- TemplateEndIf --><span class="people"><!-- TemplateBeginIf cond="Villians" -->
+      <!-- TemplateEndIf --></span><!-- TemplateBeginIf cond="Villians" -->
       <ul>
         <li>
-          <h2>Villains</h2>
+          <h2 class="people">Villains</h2>
         </li>
-        <li><a href="../the-villians/abzorbaloff.html">Abzorbaloff</a></li>
-        <li><a href="../the-villians/animus.html">Animus</a></li>
-        <li><a href="../the-villians/azal.html">Azal</a></li>
-        <li><a href="../the-villians/baltazar.html">Baltazar</a></li>
-        <li><a href="../the-villians/beast.html">Beast</a></li>
-        <li><a href="../the-villians/beep-the-meep.html">Beep the Meep</a></li>
-        <li><a href="../the-villians/bennett.html">Bennett</a></li>
-        <li><a href="../the-villians/black-guardian.html">Black Guardian</a></li>
-        <li><a href="../the-villians/father-angelo.html">Father Angelo</a></li>
-        <li><a href="../the-villians/helen-a.html">Helen A</a></li>
+        <li class="people"><a href="../the-villians/abzorbaloff.html" class="people">Abzorbaloff</a></li>
+        <li class="people"><a href="../the-villians/animus.html" class="people">Animus</a></li>
+        <li class="people"><a href="../the-villians/azal.html" class="people">Azal</a></li>
+        <li class="people"><a href="../the-villians/baltazar.html" class="people">Baltazar</a></li>
+        <li class="people"><a href="../the-villians/beast.html" class="people">Beast</a></li>
+        <li class="people"><a href="../the-villians/beep-the-meep.html" class="people">Beep the Meep</a></li>
+        <li class="people"><a href="../the-villians/bennett.html" class="people">Bennett</a></li>
+        <li class="people"><a href="../the-villians/black-guardian.html" class="people">Black Guardian</a></li>
+        <li class="people"><a href="../the-villians/father-angelo.html" class="people">Father Angelo</a></li>
+        <li class="people"><a href="../the-villians/helen-a.html" class="people">Helen A</a></li>
       </ul>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
@@ -91,5 +95,6 @@
     <td class="content-area"><!-- TemplateBeginEditable name="Content" -->[Content]<!-- TemplateEndEditable --></td>
   </tr>
 </table>
+<p class="background">&nbsp;</p>
 </body>
 </html>
