@@ -13,6 +13,7 @@
 <link href="../style.css" rel="stylesheet" type="text/css">
 <!-- TemplateParam name="Villains-list" type="boolean" value="true" -->
 <!-- TemplateParam name="Villians" type="boolean" value="true" -->
+<!-- TemplateParam name="history" type="boolean" value="true" -->
 </head>
 
 <body bgcolor="#CCCCCC">
@@ -48,7 +49,7 @@
         <li><a href="../the-doctors/the-eleventh-doctor.html">The Eleventh Doctor</a></li>
         <li><a href="../the-doctors/the-twelvth-doctor.html">The Twelvth Doctor</a></li>
       </ul>
-      <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="_document['Companions Menu']" -->
+      <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Companions Menu']" -->
       <ul>
         <li>
           <h2>Companions</h2>
@@ -64,6 +65,9 @@
         <li><a href="../the-companions/ian-chesterton.html">Ian Chesterton</a></li>
         <li><a href="../the-companions/steven-taylor.html" title="Steven Taylor (Doctor Who)">Steven Taylor</a></li>
       </ul>
+      <!-- TemplateEndIf --><!-- TemplateBeginIf cond="history" -->
+      <p><a href="../history.html">History</a></p>
+      <p><a href="../index.html">What is Doctor Who</a></p>
       <!-- TemplateEndIf --><!-- TemplateBeginIf cond="Villians" -->
       <ul>
         <li>
